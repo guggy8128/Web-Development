@@ -1,0 +1,66 @@
+*{
+  background-color: black;
+}
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+nav{
+  background-color: #333;
+  padding: 10px;
+  overflow: hidden;
+}
+header i{
+  background-color: aliceblue;
+  color: #333;
+}
+footer{
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+footer a{
+  color: white;
+  background-color: #333;
+  padding: 10px;
+  overflow: hidden;
+}
+
+section {
+  text-align: center;
+  padding: 50px;
+}
+section em{
+  color:white;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 30px;
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+}
+h6.button{
+  color: rgb(154, 154, 154);
+  
+}
+section h2,h3{
+  color:rgb(155, 155, 155);
+}
+table,tr,th,td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  border-spacing: 5px;
+}
+th{
+  background-color: blueviolet;
+}
+td{
+  background-color: lightblue;
+}

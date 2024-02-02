@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .header{
+            background-color: silver;
+            color: black;
+            padding: 10px 400px;
+        }
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 10px;
+            box-sizing: border-box;
+
+            height: 220px;
+            margin-top: 50px;
+        }
+        .column{
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 20%;
+            background-color: silver;
+            text-align: center;
+            padding: 70px 0;
+        }
+        @media screen and (max-width: 600px){
+            .column{
+                width: 50%;
+            }
+        }
+        @media screen and (max-width: 400px){
+            .column{
+                width: 100%;
+            }
+        }  
+        @media screen and (max-width: 400px){
+            .header{
+                width: 100%;
+            }
+        } 
+        @media screen and (max-width: 400px){
+            .header{
+                width: 50%;
+                color: antiquewhite;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Introdiction of c language</h1>
+    </div>
+    <div class="row">
+        <p class="column">step-1</p>
+        <p class="column">step-2</p>
+        <p class="column">step-3</p>
+        <p class="column">step-4</p>
+    </div>
+</body>
+</html>
